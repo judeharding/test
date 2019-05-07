@@ -19,7 +19,7 @@ var book = require("./lib/grades.js").book;
 // };
 
 for (var i = 2; i < process.argv.length; i++) {
-    book.addGrade(parseInt(process.argv[i]));
+    book.addGrade(parseInt(process.argv[i])); // now i can add grades on the terminal line node program.js 70 80 90
 }
 console.log(book.getAverage());
 
